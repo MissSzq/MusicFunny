@@ -1,0 +1,10 @@
+<view class='container' data-img="{{music.albumpic_big}}" data-url="">
+  <text wx:if="{{index}}" class='index'>{{index}}</text>
+  <view class='music-details'>
+    <view class='music-detail'>
+      <text class='songname'>{{music.songname}}</text>
+      <text class='singername'>{{music.singername}}</text>
+    </view>
+    <image class='play' src='/images/tab/play.png'></image>
+  </view>
+</view>

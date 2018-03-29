@@ -1,0 +1,40 @@
+<view class='container'>
+  <swiper indicator-dots="true" autoplay="true">
+    <swiper-item>
+      <image src="/images/swiper/swiper-1.png" class="slide-image" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/swiper/swiper-2.png" class="slide-image" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/swiper/swiper-3.png" class="slide-image" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/swiper/swiper-4.png" class="slide-image" />
+    </swiper-item>
+  </swiper>
+  <view class='navbar' catchtap='onNavbar'>
+    <text class='{{recommend}}' data-navbar='recommend'>推荐音乐</text>
+    <text class='{{hot}}' data-navbar='hot'>热歌榜</text>
+    <text class='{{search}}' data-navbar='search'>搜索</text>
+  </view>
+  <view class='music-list' wx:if="{{recommend}}">
+    <text class='new-song'>最新音乐</text>
+    <block wx:for="{{musicList.songlist}}" wx:for-item="music">
+      <music music="{{music}}"></music>
+    </block>
+  </view>
+  <view class='music-list' wx:elif="{{hot}}">
+    <image src='/images/hot.png' class='hot-img'></image>
+    <block wx:for="{{musicList.songlist}}" wx:for-item="music" wx:for-index="index">
+      <music music="{{music}}" index="{{index+1}}"></music>
+    </block>
+  </view>
+  <view class='music-list' wx:elif="{{search}}">
+    <view class='search-container'>
+      <icon type="search" size="18" class='search-icon'/>
+      <input type='text' placeholder='搜索歌曲、歌手、专辑' class='search' />
+    </view>
+
+  </view>
+</view>

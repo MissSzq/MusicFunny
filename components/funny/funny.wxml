@@ -1,0 +1,13 @@
+<view class='container'>
+  <view class='user'>
+    <image src='{{funnyJoke.profile_image}}' class='user-img'></image>
+    <text class='user-name'>{{funnyJoke.name}}</text>
+  </view>
+  <text class='funny-text'>{{funnyJoke.text}}</text>
+  <view class='view-content'>
+    <image src='/images/icon/none-star.png'></image>
+    <text>{{funnyJoke.hate}}</text>
+    <image src='/images/icon/view.png'></image>
+    <text>{{funnyJoke.love}}</text>
+  </view>
+</view>

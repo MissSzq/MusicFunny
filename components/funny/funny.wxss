@@ -1,0 +1,31 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx 20rpx;
+  margin: 20rpx 0;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+}
+.user-img{
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 20rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.user-name{
+  font-size: 30rpx;
+  color: #333;
+  vertical-align: middle;
+}
+.view-content image{
+  width: 30rpx;
+  height: 30rpx;
+  margin: 0rpx 20rpx;
+  vertical-align: middle;
+}
+.view-content text{
+  font-size: 20rpx;
+  color: #ccc;
+  vertical-align: middle;
+}

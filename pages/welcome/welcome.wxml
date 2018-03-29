@@ -1,0 +1,6 @@
+<view class='container'>
+  <image src='/images/welcome.jpg' class='logo'></image>
+  <view class='sure-content' catchtap='onStart'>
+    <text class='sure-text'>进入小程序</text>
+  </view>
+</view>

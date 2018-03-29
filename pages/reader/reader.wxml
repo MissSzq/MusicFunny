@@ -1,0 +1,5 @@
+<view>
+  <block wx:for="{{funnyJoke}}" wx:for-item="funnyJoke">
+    <funny funnyJoke="{{funnyJoke}}"></funny>
+  </block>
+</view>

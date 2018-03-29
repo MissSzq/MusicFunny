@@ -1,0 +1,7 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "搞笑段子",
+  "usingComponents":{
+    "funny":"../../components/funny/funny"
+  }
+}

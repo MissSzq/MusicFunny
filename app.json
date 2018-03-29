@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/welcome/welcome",
+    "pages/reader/reader",
+    "pages/musics/musics" 
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#c20c0c",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Music"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "selectedColor": "#c20c0c",
+    "list": [
+      {
+        "iconPath": "/images/tab/music-1.png",
+        "selectedIconPath": "/images/tab/music.png",
+        "pagePath": "pages/musics/musics",
+        "text": "音乐"
+      },
+      {
+        "iconPath": "/images/tab/text-1.png",
+        "selectedIconPath": "/images/tab/text.png",
+        "pagePath": "pages/reader/reader",
+        "text": "段子"
+      }
+    ]
+  }
+}

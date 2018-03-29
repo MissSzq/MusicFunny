@@ -1,0 +1,53 @@
+swiper{
+  width : 100%;
+  height : 360rpx;
+}
+swiper image{
+  width : 100%;
+  height : 360rpx;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  height: 80rpx;
+  border: 1px solid #eee;
+}
+.navbar text{
+  font-size: 32rpx;
+  line-height: 80rpx;
+}
+.active{
+  border-bottom: 2px solid #c20c0c;
+}
+.music-list{
+  padding: 20px 0;
+}
+.new-song{
+  font-size: 34rpx;
+  line-height: 40rpx; 
+}
+.new-song{
+  display: block;
+  border-left: 6rpx solid #c20c0c;
+  margin: 20rpx 0 40rpx 0;
+  padding-left: 10rpx;
+  font-size: 36rpx;
+}
+.hot-img{
+  width: 100%;
+  height: 300rpx;
+}
+.search-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20rpx 20rpx;
+  border-bottom: 1px solid #eee;
+}
+.search-icon{
+  margin: 10rpx 30rpx 0 0;
+}
+.search{
+  font-size: 36rpx;
+}
